@@ -1,4 +1,12 @@
 
+###
+# List of functions for usage outside of lib
+#
+# - find_indent_type()
+# - find_indent_size()
+# - insert_text()
+###
+
 # Function to find the most common indentation type
 find_indent_type() {
     local file="$1"
